@@ -10,4 +10,3 @@ We could use git clone the puppet module, install puppet agent and apply the pup
 
 I have abstracted puppet module manifests by having different manifests for init, params, packages, service, config, certificate. Doing this, helps in reusing the code for various types of servers ( ex : diff env web servers - dev, qa, ct, prod ). Each can have its own cert as an example.
 
-We can bump up the apache version just by modifying the params file than editing the whole manifest.
